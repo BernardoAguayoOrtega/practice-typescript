@@ -1,4 +1,8 @@
 class InventoryStore {
+  _categories
+  _items
+  _isInitialized
+
   /** the inventory categories */
   get categories() {
     return this._categories;
